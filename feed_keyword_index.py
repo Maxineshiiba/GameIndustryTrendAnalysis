@@ -7,6 +7,8 @@
 #Logic for current model: Keyword Index is calculated by using the document frequency(DF) of a keyword in the 10 past days, and then attenuate
 #the DF value (current day has the largest weight, decay with time), and finally sum all the DF values
 
+#PageRank method is also added in the model
+
 
 import json,os,string,datetime,time,getopt,math
 import sys
